@@ -1,0 +1,8 @@
+﻿  CashOut.cpp
+  MainForm.cpp
+c:\users\mazur\desktop\ооп\курсовая 2.0 — копия (3) — копия\project3\project3\startpage.h(242): warning C4129: D: неизвестная escape-последовательность
+c:\users\mazur\desktop\ооп\курсовая 2.0 — копия (3) — копия\project3\project3\startpage.h(288): warning C4129: D: неизвестная escape-последовательность
+c:\users\mazur\desktop\ооп\курсовая 2.0 — копия (3) — копия\project3\project3\startpage.h(243): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода...
+  BankAccount.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Project3.vcxproj -> C:\Users\mazur\Desktop\ООП\Курсовая 2.0 — копия (3) — копия\Project3\x64\Debug\Project3.exe
