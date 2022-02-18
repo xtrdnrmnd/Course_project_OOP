@@ -12,7 +12,7 @@ Visual Studio версии не ранее 10.0.402.19.1, рекомендует
 1. Вход
 При запуске программы пользователю предлагается вставить свою карту «в банкомат»
 
-![image](https://user-images.githubusercontent.com/55019810/154702324-1c23b421-4165-4682-9f8a-c528997cb0cb.png)
+![image](https://user-images.githubusercontent.com/55019810/154708475-f3971eaa-3cd5-41b0-9211-626cc66a869a.png)
 
 2. Авторизация
 
