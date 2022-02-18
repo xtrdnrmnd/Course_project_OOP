@@ -11,7 +11,7 @@ namespace Project3 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm1
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm1
 	/// </summary>
 	public ref class MyForm1 : public System::Windows::Forms::Form
 	{
@@ -20,13 +20,13 @@ namespace Project3 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm1()
 		{
@@ -66,14 +66,14 @@ namespace Project3 {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -109,8 +109,8 @@ namespace Project3 {
 			// pictureBox5
 			// 
 			pictureBox5->Enabled = false;
-			pictureBox5->ImageLocation = L"C:\\Users\\mazur\\Desktop\\ООП\\Курсовая 2.0 — копия (3) — копия\\Project3\\Project3\\Без"
-				L" названия.png";
+			pictureBox5->ImageLocation = L"C:\\Users\\mazur\\Desktop\\ГЋГЋГЏ\\ГЉГіГ°Г±Г®ГўГ Гї 2.0 вЂ” ГЄГ®ГЇГЁГї (3) вЂ” ГЄГ®ГЇГЁГї\\Project3\\Project3\\ГЃГҐГ§"
+				L" Г­Г Г§ГўГ Г­ГЁГї.png";
 			pictureBox5->Location = System::Drawing::Point(621, 0);
 			pictureBox5->Name = L"pictureBox5";
 			pictureBox5->Size = System::Drawing::Size(203, 143);
@@ -131,7 +131,7 @@ namespace Project3 {
 			this->Phone->Name = L"Phone";
 			this->Phone->Size = System::Drawing::Size(313, 113);
 			this->Phone->TabIndex = 0;
-			this->Phone->Text = L"Мобильная связь";
+			this->Phone->Text = L"ГЊГ®ГЎГЁГ«ГјГ­Г Гї Г±ГўГїГ§Гј";
 			this->Phone->UseVisualStyleBackColor = false;
 			this->Phone->Click += gcnew System::EventHandler(this, &MyForm1::Phone_Click);
 			// 
@@ -148,7 +148,7 @@ namespace Project3 {
 			this->Internet->Name = L"Internet";
 			this->Internet->Size = System::Drawing::Size(313, 113);
 			this->Internet->TabIndex = 1;
-			this->Internet->Text = L"Интернет";
+			this->Internet->Text = L"Г€Г­ГІГҐГ°Г­ГҐГІ";
 			this->Internet->UseVisualStyleBackColor = false;
 			this->Internet->Click += gcnew System::EventHandler(this, &MyForm1::Internet_Click);
 			// 
@@ -178,7 +178,7 @@ namespace Project3 {
 			this->back->Name = L"back";
 			this->back->Size = System::Drawing::Size(313, 113);
 			this->back->TabIndex = 7;
-			this->back->Text = L"Назад";
+			this->back->Text = L"ГЌГ Г§Г Г¤";
 			this->back->UseVisualStyleBackColor = false;
 			this->back->Click += gcnew System::EventHandler(this, &MyForm1::button3_Click);
 			// 
@@ -256,7 +256,7 @@ namespace Project3 {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(215, 30);
 			this->label1->TabIndex = 12;
-			this->label1->Text = L"Выберите оператора:";
+			this->label1->Text = L"Г‚Г»ГЎГҐГ°ГЁГІГҐ Г®ГЇГҐГ°Г ГІГ®Г°Г :";
 			this->label1->Visible = false;
 			// 
 			// label3
@@ -267,7 +267,7 @@ namespace Project3 {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(169, 30);
 			this->label3->TabIndex = 13;
-			this->label3->Text = L"Введите сумму:";
+			this->label3->Text = L"Г‚ГўГҐГ¤ГЁГІГҐ Г±ГіГ¬Г¬Гі:";
 			this->label3->Visible = false;
 			// 
 			// textBox1
@@ -291,14 +291,14 @@ namespace Project3 {
 			this->enterBtn->Name = L"enterBtn";
 			this->enterBtn->Size = System::Drawing::Size(313, 113);
 			this->enterBtn->TabIndex = 15;
-			this->enterBtn->Text = L"Ввести";
+			this->enterBtn->Text = L"Г‚ГўГҐГ±ГІГЁ";
 			this->enterBtn->UseVisualStyleBackColor = false;
 			this->enterBtn->Visible = false;
 			this->enterBtn->Click += gcnew System::EventHandler(this, &MyForm1::enterBtn_Click);
 			// 
 			// megafonP
 			// 
-			this->megafonP->ImageLocation = L"C:\\Users\\mazur\\Desktop\\ООП\\5.jpg";
+			this->megafonP->ImageLocation = L"C:\\Users\\mazur\\Desktop\\ГЋГЋГЏ\\5.jpg";
 			this->megafonP->Location = System::Drawing::Point(534, 315);
 			this->megafonP->Name = L"megafonP";
 			this->megafonP->Size = System::Drawing::Size(242, 95);
@@ -310,7 +310,7 @@ namespace Project3 {
 			// 
 			// tele2P
 			// 
-			this->tele2P->ImageLocation = L"C:\\Users\\mazur\\Desktop\\ООП\\Tele2_Logo.jpg";
+			this->tele2P->ImageLocation = L"C:\\Users\\mazur\\Desktop\\ГЋГЋГЏ\\Tele2_Logo.jpg";
 			this->tele2P->Location = System::Drawing::Point(534, 196);
 			this->tele2P->Name = L"tele2P";
 			this->tele2P->Size = System::Drawing::Size(242, 95);
@@ -323,7 +323,7 @@ namespace Project3 {
 			// beelineP
 			// 
 			this->beelineP->Enabled = false;
-			this->beelineP->ImageLocation = L"C:\\Users\\mazur\\Desktop\\ООП\\Курсовая 2.0 — копия (3) — копия\\Project3\\Project3\\bee"
+			this->beelineP->ImageLocation = L"C:\\Users\\mazur\\Desktop\\ГЋГЋГЏ\\ГЉГіГ°Г±Г®ГўГ Гї 2.0 вЂ” ГЄГ®ГЇГЁГї (3) вЂ” ГЄГ®ГЇГЁГї\\Project3\\Project3\\bee"
 				L"line.jpg";
 			this->beelineP->Location = System::Drawing::Point(210, 196);
 			this->beelineP->Name = L"beelineP";
@@ -336,7 +336,7 @@ namespace Project3 {
 			// 
 			// mtsP
 			// 
-			this->mtsP->ImageLocation = L"C:\\Users\\mazur\\Desktop\\ООП\\mts.jpg";
+			this->mtsP->ImageLocation = L"C:\\Users\\mazur\\Desktop\\ГЋГЋГЏ\\mts.jpg";
 			this->mtsP->Location = System::Drawing::Point(191, 315);
 			this->mtsP->Name = L"mtsP";
 			this->mtsP->Size = System::Drawing::Size(242, 95);
@@ -357,7 +357,7 @@ namespace Project3 {
 			this->BackToOperator->Name = L"BackToOperator";
 			this->BackToOperator->Size = System::Drawing::Size(313, 113);
 			this->BackToOperator->TabIndex = 21;
-			this->BackToOperator->Text = L"Назад";
+			this->BackToOperator->Text = L"ГЌГ Г§Г Г¤";
 			this->BackToOperator->UseVisualStyleBackColor = false;
 			this->BackToOperator->Visible = false;
 			this->BackToOperator->Click += gcnew System::EventHandler(this, &MyForm1::BackToOperator_Click);
@@ -370,7 +370,7 @@ namespace Project3 {
 			this->paymentAcception->Name = L"paymentAcception";
 			this->paymentAcception->Size = System::Drawing::Size(192, 30);
 			this->paymentAcception->TabIndex = 22;
-			this->paymentAcception->Text = L"Платеж совершен.";
+			this->paymentAcception->Text = L"ГЏГ«Г ГІГҐГ¦ Г±Г®ГўГҐГ°ГёГҐГ­.";
 			this->paymentAcception->Visible = false;
 			// 
 			// MyForm1
@@ -414,7 +414,7 @@ namespace Project3 {
 
 		}
 #pragma endregion
-//Кнопка возврата к основной форме
+//ГЉГ­Г®ГЇГЄГ  ГўГ®Г§ГўГ°Г ГІГ  ГЄ Г®Г±Г­Г®ГўГ­Г®Г© ГґГ®Г°Г¬ГҐ
 private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
 this->Close();
 }
@@ -502,25 +502,30 @@ private: System::Void Megafon_Click(System::Object^  sender, System::EventArgs^ 
 	enterBtn->Visible = true;
 	BackToOperator->Visible = true;
 }
-// Кнопка обработки введенной пользователем суммы
+// ГЉГ­Г®ГЇГЄГ  Г®ГЎГ°Г ГЎГ®ГІГЄГЁ ГўГўГҐГ¤ГҐГ­Г­Г®Г© ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«ГҐГ¬ Г±ГіГ¬Г¬Г»
 private: System::Void enterBtn_Click(System::Object^  sender, System::EventArgs^  e) {
-	if (Convert::ToDouble(textBox1->Text) <= bank.GetAccount()) {
-		aaaccount = bank.GetAccount() - (Convert::ToDouble(textBox1->Text));
-		bank.SetAccount(aaaccount);
-		paymentAcception->Visible = true;
-		int timeCounterr = 0;
-		++timeCounterr;
-		timer1->Interval = 1000;
-		timer1->Enabled = true;
-		this->Close();
+	if (textBox1->Text == "") {
+		MessageBox::Show("Р’РІРµРґРёС‚Рµ СЃСѓРјРјСѓ", "РћС€РёР±РєР°", MessageBoxButtons::OK, MessageBoxIcon::Error);
 	}
 	else {
-		textBox1->Clear();
-		MessageBox::Show("Сумма снятия превысила количество средств на вашем счету", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
-	}	
+		if (Convert::ToDouble(textBox1->Text) <= bank.GetAccount()) {
+			aaaccount = bank.GetAccount() - (Convert::ToDouble(textBox1->Text));
+			bank.SetAccount(aaaccount);
+			paymentAcception->Visible = true;
+			int timeCounterr = 0;
+			++timeCounterr;
+			timer1->Interval = 1000;
+			timer1->Enabled = true;
+			this->Close();
+		}
+		else {
+			textBox1->Clear();
+			MessageBox::Show("РЎСѓРјРјР° СЃРЅСЏС‚РёСЏ РїСЂРµРІС‹СЃРёР»Р° РєРѕР»РёС‡РµСЃС‚РІРѕ СЃСЂРµРґСЃС‚РІ РЅР° РІР°С€РµРј СЃС‡РµС‚Сѓ", "РћС€РёР±РєР°", MessageBoxButtons::OK, MessageBoxIcon::Error);
+		}
+	}		
 }
 
-//Кнопка назад
+//ГЉГ­Г®ГЇГЄГ  Г­Г Г§Г Г¤
 private: System::Void BackToOperator_Click(System::Object^  sender, System::EventArgs^  e) {
 	megafonP->Visible = true;
 	mtsP->Visible = true;
